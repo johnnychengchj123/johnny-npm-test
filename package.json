@@ -1,0 +1,81 @@
+{
+  "name": "johnny-npm-test",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "zhengrong.yu <zhengrong.yu@dianping.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "es",
+    "apis.js",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:johnnychengchj123/johnny-npm-test.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/eslint-parser": "^7.14.7",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.14.5",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.4",
+    "babel-jest": "^27.0.6",
+    "commitizen": "^4.2.4",
+    "cz-lerna-changelog": "^2.0.3",
+    "del": "^6.0.0",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "git-branch": "^2.0.1",
+    "git-semver-tags": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-template": "^5.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.0.1",
+    "merge2": "^1.4.1",
+    "minimatch": "^3.0.4",
+    "minimist": "^1.2.5",
+    "prettier": "^2.3.2",
+    "through2": "^4.0.2",
+    "ts-jest": "^27.0.4",
+    "typedoc": "^0.22.8",
+    "typedoc-plugin-markdown": "^3.11.3",
+    "typedoc-plugin-not-exported": "^0.1.6",
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "test": "npx jest",
+    "compile": "npx gulp --gulpfile config/gulpfile.js",
+    "clean": "rm -rf es lib",
+    "build": "yarn run clean && yarn run compile"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.6",
+    "core-js": "^3.16.1"
+  },
+  "sideEffects": false,
+  "gitHead": "c116c5fed307490ca976292ee0be4f754970e5e5"
+}
