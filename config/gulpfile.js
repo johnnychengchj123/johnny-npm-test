@@ -10,6 +10,7 @@ const babelConfig = require('../babel.config.js');
 const sourceFiles = ['../src/**/*.ts', '!node_modules/**/*.*'];
 const esDir = path.resolve(__dirname, '../es')
 const libDir = path.resolve(__dirname, '../lib')
+
 const baseDir = path.resolve(__dirname, '../src')
 gulp.task('tsc', function () {
     return compileTs(gulp.src(sourceFiles, {

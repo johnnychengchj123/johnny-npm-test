@@ -1,8 +1,8 @@
 {
   "name": "johnny-npm-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
-  "author": "zhengrong.yu <zhengrong.yu@dianping.com>",
+  "author": "chenghuijun <532836587@qq.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",

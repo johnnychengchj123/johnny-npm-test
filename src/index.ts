@@ -1,4 +1,4 @@
 export default {
-  a: 'a',
-  b: 'b'
+  a: 'b',
+  b: 'a'
 }
