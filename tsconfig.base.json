@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": false,
+    "declaration": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "paths": {}
+  },
+  "include": [
+    "packages/k2-toolkit/src",
+    "packages/k2-toolkit-common/src",
+    "packages/k2-toolkit-app/src",
+    "packages/k2-toolkit-h5/src"
+  ],
+  "exclude": ["node_modules", "__tests__"]
+}

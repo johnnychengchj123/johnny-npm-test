@@ -4,8 +4,8 @@ const ts = require('gulp-typescript');
 const merge2 = require('merge2');
 const babel = require('gulp-babel')
 const through2 = require('through2');
-const tsConfig = require('../../../tsconfig.base.json').compilerOptions; // @Note: 要使用严格 JSON 格式，否则会报错
-const babelConfig = require('../../../babel.config.js');
+const tsConfig = require('../tsconfig.base.json').compilerOptions; // @Note: 要使用严格 JSON 格式，否则会报错
+const babelConfig = require('../babel.config.js');
 
 const sourceFiles = ['../src/**/*.ts', '!node_modules/**/*.*'];
 const esDir = path.resolve(__dirname, '../es')

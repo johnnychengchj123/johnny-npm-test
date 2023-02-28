@@ -1,0 +1,8 @@
+node_modules/
+lib/
+es/
+**/coverage/
+.vscode/
+lerna-debug.log
+scripts/
+yarn.lock

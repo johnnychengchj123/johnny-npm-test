@@ -1,0 +1,13 @@
+{
+  "entryPoints": [],
+  "out": "docs",
+  "sort": ["source-order"],
+  "readme": "./guide/intro.md",
+  "excludePrivate": true,
+  "disableSources": true,
+  "hideInPageTOC": true,
+  "hidePageTitle": false,
+  "hideBreadcrumbs": true,
+  "tsconfig": "./tsconfig.typedoc.json",
+  "plugin": ["typedoc-plugin-not-exported", "typedoc-plugin-markdown"]
+}
